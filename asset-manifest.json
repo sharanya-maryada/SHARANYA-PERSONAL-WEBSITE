@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/SHARANYA-PERSONAL-WEBSITE/static/js/main.3a15cfa9.js",
+    "static/media/me.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/me.d3c3a2d298563abb319b.png",
+    "static/media/nature.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/nature.b5d355781eba8540a983.png",
+    "static/media/Resume1.pdf": "/SHARANYA-PERSONAL-WEBSITE/static/media/Resume1.386633190c3b0e7e9bb8.pdf",
+    "static/media/baking.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/baking.80f3b40bd986dcf0390b.png",
+    "static/media/bjj.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/bjj.f748130be5ad6615b75d.png",
+    "static/media/Meebo.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/Meebo.477231d3dc08f8648bb3.png",
+    "static/media/invaders.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/invaders.3325a53ef9ea99532428.png",
+    "static/media/lively-balloons.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/lively-balloons.0b4fca1ec711f0affd53.png",
+    "static/media/hangman.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/hangman.f84766f553ecbde3408f.png",
+    "static/media/weather.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/weather.7126f8376b06cf3bfa85.png",
+    "static/media/crypto-tracker.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/crypto-tracker.be0e08e55a5e21f45c8f.png",
+    "static/media/node.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/node.94608a755faec0311952.png",
+    "static/media/website.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/website.1a36876bb4403fa6e1ed.png",
+    "static/media/blackVerticalLine.png": "/SHARANYA-PERSONAL-WEBSITE/static/media/blackVerticalLine.b98d23350c030edeb194.png",
+    "index.html": "/SHARANYA-PERSONAL-WEBSITE/index.html",
+    "main.3a15cfa9.js.map": "/SHARANYA-PERSONAL-WEBSITE/static/js/main.3a15cfa9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3a15cfa9.js"
+  ]
+}

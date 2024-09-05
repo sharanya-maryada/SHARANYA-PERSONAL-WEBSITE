@@ -1,0 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+div {
+    display: block;
+}
+.section {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10em;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.page-container {
+    margin-bottom: 10em;
+}
+.title {
+    margin-top: 2.5em;
+    font-size: 3em;
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(78, 78, 78);
+    border: 2px solid #c2c2c2;
+    padding:0.8em 3.5em;
+    margin:2em 0.3em 0.3em 0.3em;
+    border-radius: .5em;
+    font-size: 1em;
+  }
+.button:hover {background-color: #d6d6d6;}
+
+.removeDecoration {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+.centerBlock {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .grayBackground {
+     background-color: #f3f3f3b4;
+ }
+
+.black-border {
+    padding: 15px 15px 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: transparent;
+    border-color: rgb(201, 201, 201);
+}
+/* -------------------------------------  RIGHT BAR  ------------------------------------- */
+.rightBarSection {
+    position: fixed; 
+    bottom: 0; 
+    right: 3em; 
+    width: 40px; 
+    padding: 0; 
+}
+.rightBarButton {
+    text-decoration: none;
+    padding: .5em;
+    opacity: .7;
+    transition: all .2s ease-in-out;
+    font-size: 1em;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+.rightBarLine {
+    margin-top: 30px;
+    opacity: .8;
+}
+
+/* -------------------------------------  HEADER  ------------------------------------- */
+.navbar-wrapper {
+    width: 100%;
+    padding-top: 4em;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 100;
+}
+.navbar-wrapper .links-wrapper button {
+    padding: 1em;
+    font-size: 1em;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    opacity: .8;
+}
+
+.links-wrapper {
+    margin-right: 5em;
+}
+
+.logo {
+    margin-left: 8em;
+}
+
+
+/* -------------------------------------  HOME  ------------------------------------- */
+#intro {
+    margin: 6em;
+    width: 55%;
+}
+#homeMyName {
+    font-size: 4em;
+    margin: 0 0 0 0; 
+}
+.homeText {
+    font-size: 1.5em;
+    margin: 0 0 0 0; 
+}
+
+/* -------------------------------------  ABOUT  ------------------------------------- */
+.about-container {
+    width: 70%;
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+.about-description {
+    margin: 0 1em 0 1em; 
+}
+.about-image {
+    margin: 0 1em 0 1em;
+}
+.skill {
+    margin: 0 1em 0 1em;
+    width: 100px;
+    float: left;
+}
+.subtitle {
+    margin: 2em 0 .8em 0; 
+}
+.skill-description {
+    text-align: center; 
+    font-size: 1em;
+}
+.image-skill {
+    width: 50px;
+    height: 50px;
+}
+
+/* -------------------------------------  PROJECTS  ------------------------------------- */
+.projectSpacing {
+    margin-top: 1.5em;
+}
+.eachProjectSpacing {
+    margin-top: 2em; 
+    z-index: 1;
+}
+.eachProjectHover:hover {
+    opacity: .15;
+    transform: scale(1.1);
+    transition-duration: 300ms;
+}
+.image-project-container {
+    position: relative;
+}
+
+.image-project-container h4 {
+    position: absolute;
+    z-index: -1;
+    font-size: 2em;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-project-container p {
+    position: absolute;
+    z-index: -1;
+    font-size: 1em;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+/* -------------------------------------  HOBBIES  ------------------------------------- */
+#HobbiesSpacing {
+    margin-top: 1em;
+}
+.eachHobbySpacing {
+    margin-top: 2em;
+}
+.image-container {
+    width: 3in;
+    height: 3in; 
+    position: relative;
+    margin: .5em;
+}
+.image-container p {
+    position: absolute;
+    z-index: -1;
+    font-size: 3em;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.image-container img {
+    z-index: 2;
+    width: 100%;
+    height: 100%;  
+}
+
+/* -------------------------------------  CONTACT  ------------------------------------- */
+#contactTopSpacing {
+    padding: 2em; 
+}
+#contactBottomSpacing {
+    padding: 3em;
+}
+.contactParagraph {
+    font-size: 1.3em;
+}
+
+/* -------------------------------------  FOOTER  ------------------------------------- */
+.footer {
+    margin-top: 3.5em;
+    font-size: .8em;
+}
