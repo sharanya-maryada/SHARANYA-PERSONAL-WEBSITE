@@ -25,7 +25,7 @@ function RightBar() {
       <SocialButton image={email} name="Email" link="mailto: maryada.s@northeastern.edu" />
       <SocialButton image={phone} name="Phone" link="tel:6178357609" />
       <SocialButton image={linkedin} name="LinkedIn" link="https://www.linkedin.com/in/sharanya-maryada/" />
-      <SocialButton image={instragram} name="Instragram" link="https://www.instagram.com/shimeyloo/" />
+      <SocialButton image={instragram} name="Instragram" link="https://www.instagram.com/maryada.sharanya/" />
       <div className="container">
         <img className="rightBarLine" src={line} alt="Line"></img>
       </div>

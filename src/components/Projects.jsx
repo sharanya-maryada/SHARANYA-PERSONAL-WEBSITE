@@ -35,37 +35,31 @@ function Projects() {
             <EachProject 
               name="sharanya.github.io" 
               image={website} 
-              link="https://github.com/shimeyloo/shimeyloo.com"  
               description="My portfolio website created with React, Bootstrap, HTML, CSS and Javascript." 
             />
             <EachProject 
               name="Cryptocurrency Tracker" 
               image={crypto} 
-              link="https://github.com/shimeyloo/Crypto-Tracker" 
               description="Web application to keep track of your cyprtocurrency worth created with React JS." 
             />
             <EachProject 
               name="Hangman" 
               image={hangman} 
-              link="https://github.com/shimeyloo/Hangman" 
               description="Client Server Game created with Python and sockets." 
             />
             <EachProject 
               name="Greenhouse Invaders" 
               image={invaders} 
-              link="https://github.com/shimeyloo/Greenhouse-Invaders" 
               description="Space invader inspired game for OSU Fall 2021 Hackathon created with Python, and Pygame." 
             />
             <EachProject 
               name="Current Weather" 
               image={weather} 
-              link="https://github.com/shimeyloo/Current-Weather" 
               description="Simple web application that gets the current weather for specified location by calling openweathermap API." 
             />
             <EachProject 
               name="Lively Balloons" 
               image={lively} 
-              link="https://github.com/shimeyloo/Lively-Balloons" 
               description="My first website created with HTML, CSS, Bootstrap and Javascript." 
             />
           </div>
